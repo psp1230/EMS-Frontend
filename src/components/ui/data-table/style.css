@@ -1,0 +1,29 @@
+/* 這個文件可以添加到你的全局 CSS 中 */
+
+.data-table-wrapper {
+  width     : 100%;
+  overflow-x: auto;
+}
+
+.data-table {
+  width       : 100%;
+  table-layout: fixed;
+}
+
+.data-table th,
+.data-table td {
+  white-space  : nowrap;
+  overflow     : hidden;
+  text-overflow: ellipsis;
+}
+
+/* 為不同的列設置不同的寬度 */
+.data-table .checkbox-column {
+  width: 40px;
+}
+
+.data-table .file-name-column {
+  width: 50%;
+}
+
+/* 其他列可以根據需要調整 */
